@@ -1,11 +1,12 @@
 import React, {useContext} from 'react';
-import {Button, View, Text} from 'react-native';
+import {View, Text} from 'react-native';
 
 import {store} from '../../store';
 import {State} from '../../store/interfaces';
 import colors from '../../themes/default/colors';
 
 import Screen from '../../components/Screen';
+import Button from '../../components/Button';
 
 const AcionConfirmationScreen = ({navigation}) => {
   const {colorMode, theme}: State = useContext(store);
@@ -14,13 +15,13 @@ const AcionConfirmationScreen = ({navigation}) => {
   return (
     <Screen customStyles={screenCustomStyles} centered>
       <View style={[styles.content, customBackground]}>
-        <Text style={styles.text}>Acion Confirmation</Text>
+        <Text style={[styles.title, titleStyle]}>Acion Confirmation</Text>
         <Button
           onPress={() => {
             navigation.navigate('app');
-          }}
-          title="Cool!"
-        />
+          }}>
+          Cool!
+        </Button>
       </View>
     </Screen>
   );
@@ -33,6 +34,11 @@ const customBackground = {
 const screenCustomStyles = {
   screen: customBackground,
   container: customBackground,
+};
+
+const titleStyle = {
+  color: colors.white,
+  marginBottom: 39,
 };
 
 export default AcionConfirmationScreen;

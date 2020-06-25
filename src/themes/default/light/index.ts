@@ -64,9 +64,24 @@ export default {
     color: colors.mediumGray,
   },
   button: {
-    borderRadius: 2,
+    borderRadius: 3,
     marginBottom: 12,
-    backgroundColor: colors.info,
+    padding: 10,
+    backgroundColor: colors.brandColors[1],
+    color: colors.white,
+    shadowColor: colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+    alignContent: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonText: {
     color: colors.white,
   },
   alert: {

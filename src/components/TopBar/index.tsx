@@ -44,7 +44,7 @@ const TopBar = ({navigation}) => {
     <View style={[styles.content]}>
       <View style={barStyle}>
         <View>
-          <Text style={styles.text}>Organization Name</Text>
+          <Text style={[styles.text, spacingStyle]}>Organization Name</Text>
           <Text style={styles.text}>License ID: 0123ABCD</Text>
         </View>
         <View>
@@ -52,7 +52,7 @@ const TopBar = ({navigation}) => {
             <MenuTrigger>
               <Icon
                 name="hamburger"
-                size={35}
+                size={39}
                 color={colorMode === 'light' ? colors.black : colors.white}
               />
             </MenuTrigger>
@@ -83,6 +83,10 @@ const menuOptionsStyles = {
   optionsWrapper: {
     minWidth: 130,
   },
+};
+
+const spacingStyle = {
+  marginBottom: 6,
 };
 
 export default TopBar;

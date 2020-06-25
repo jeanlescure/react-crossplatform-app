@@ -1,8 +1,8 @@
 import React, {useContext, useState} from 'react';
-import {Button, Text, TextInput, View} from 'react-native';
-import {Link} from '@react-navigation/native';
+import {Text, TextInput, View} from 'react-native';
 
 import Screen from '../../components/Screen';
+import Button from '../../components/Button';
 
 import {store} from '../../store';
 import {State} from '../../store/interfaces';
@@ -21,9 +21,9 @@ const ForgotPasswordScreen = ({navigation}) => {
         <Button
           onPress={() => {
             navigation.navigate('login');
-          }}
-          title="ForgotPassword"
-        />
+          }}>
+          Reset Password
+        </Button>
         <Text style={styles.text}> </Text>
       </View>
     </Screen>

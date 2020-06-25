@@ -1,6 +1,7 @@
 import {AppRegistry, Platform} from 'react-native';
 import iconFontAwesomeFont from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
 import iconMaterialCommunityIconsFont from 'react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf';
+import iconAntDesignFont from 'react-native-vector-icons/Fonts/AntDesign.ttf';
 
 import App from './src/App';
 import {name as appName} from './app.json';
@@ -15,6 +16,10 @@ if (Platform.OS === 'web') {
   @font-face {
     src: url(${iconMaterialCommunityIconsFont});
     font-family: MaterialCommunityIcons;
+  }
+  @font-face {
+    src: url(${iconAntDesignFont});
+    font-family: AntDesign;
   }`;
 
   const style = document.createElement('style');

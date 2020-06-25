@@ -5,7 +5,7 @@ export default {
   darkGray: '#434343',
   white: '#ffffff',
   brandColors: ['#518cba', '#95389e', '#f1f1f4', '#090705'],
-  alert: '#8566aa',
+  alert: '#AC42D8',
   error: '#e50000',
   warning: '#ff9a2a',
   success: '#65be00',

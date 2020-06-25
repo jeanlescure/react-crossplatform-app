@@ -1,8 +1,9 @@
 import React, {useContext} from 'react';
-import {Button, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 
 import Screen from '../../components/Screen';
 import TopBar from '../../components/TopBar';
+import Button from '../../components/Button';
 
 import {store} from '../../store';
 import {State} from '../../store/interfaces';
@@ -39,9 +40,9 @@ const HomeScreen = ({navigation}) => {
                   },
                 },
               });
-            }}
-            title="Show Alert"
-          />
+            }}>
+            Show Alert
+          </Button>
         </View>
         <View style={widgetDataStyle}>
           <Text style={[styles.errorText, bigNumberStyle]}>2</Text>
@@ -57,9 +58,9 @@ const HomeScreen = ({navigation}) => {
                   },
                 },
               });
-            }}
-            title="Show Errors"
-          />
+            }}>
+            Show Errors
+          </Button>
         </View>
         <View style={widgetDataStyle}>
           <Text style={[styles.warningText, bigNumberStyle]}>3</Text>
@@ -75,9 +76,9 @@ const HomeScreen = ({navigation}) => {
                   },
                 },
               });
-            }}
-            title="Show Warnings"
-          />
+            }}>
+            Show Warnings
+          </Button>
         </View>
         <View style={widgetDataStyle}>
           <Text style={[styles.successText, bigNumberStyle]}>4</Text>
@@ -93,9 +94,9 @@ const HomeScreen = ({navigation}) => {
                   },
                 },
               });
-            }}
-            title="Show Success"
-          />
+            }}>
+            Show Success
+          </Button>
         </View>
         <View style={widgetDataStyle}>
           <Text style={[styles.infoText, bigNumberStyle]}>5</Text>
@@ -111,9 +112,9 @@ const HomeScreen = ({navigation}) => {
                   },
                 },
               });
-            }}
-            title="Show Info"
-          />
+            }}>
+            Show Info
+          </Button>
         </View>
       </View>
     </Screen>

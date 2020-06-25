@@ -1,8 +1,9 @@
 import React, {useContext, useState} from 'react';
-import {Button, Text, TextInput, View} from 'react-native';
+import {Text, TextInput, View} from 'react-native';
 import {Link} from '@react-navigation/native';
 
 import Screen from '../../components/Screen';
+import Button from '../../components/Button';
 
 import {store} from '../../store';
 import {State} from '../../store/interfaces';
@@ -41,9 +42,9 @@ const LoginScreen = () => {
         <Button
           onPress={() => {
             onLoginPress(dispatchApi, {user, password});
-          }}
-          title="Log In"
-        />
+          }}>
+          Log In
+        </Button>
         <Text style={styles.text}> </Text>
         <Link style={styles.link} to="/forgot-password">
           Forgot password?
