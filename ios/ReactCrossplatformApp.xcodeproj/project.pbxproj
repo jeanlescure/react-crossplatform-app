@@ -56,8 +56,11 @@
 		05AEFFFC24A4208200400E17 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AEFFE924A4208200400E17 /* Fontisto.ttf */; };
 		05AEFFFE24A4208200400E17 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AEFFEA24A4208200400E17 /* Octicons.ttf */; };
 		05AEFFFF24A4208200400E17 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AEFFEA24A4208200400E17 /* Octicons.ttf */; };
+		05EDA11C24A49D1100262139 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EDA11B24A49D1100262139 /* BootSplash.storyboard */; };
+		05EDA11D24A49D1100262139 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EDA11B24A49D1100262139 /* BootSplash.storyboard */; };
+		05EDA11E24A49D1100262139 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EDA11B24A49D1100262139 /* BootSplash.storyboard */; };
+		05EDA11F24A49D1100262139 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EDA11B24A49D1100262139 /* BootSplash.storyboard */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		21554943B843AE5BC4879BE0 /* libPods-ReactCrossplatformApp-ReactCrossplatformAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3958C296EAE2DDD65AFA0185 /* libPods-ReactCrossplatformApp-ReactCrossplatformAppTests.a */; };
@@ -109,10 +112,10 @@
 		05AEFFF624A4208200400E17 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		05AEFFF724A4208200400E17 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		05AEFFF824A4208200400E17 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		05EDA11B24A49D1100262139 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = ReactCrossplatformApp/BootSplash.storyboard; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactCrossplatformApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactCrossplatformApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactCrossplatformApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactCrossplatformApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactCrossplatformApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactCrossplatformApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactCrossplatformApp/main.m; sourceTree = "<group>"; };
@@ -215,11 +218,11 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				05EDA11B24A49D1100262139 /* BootSplash.storyboard */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = ReactCrossplatformApp;
@@ -429,6 +432,7 @@
 				05AE001A24A4208200400E17 /* Ionicons.ttf in Resources */,
 				05AE002E24A4208200400E17 /* EvilIcons.ttf in Resources */,
 				05AE002224A4208200400E17 /* FontAwesome5_Regular.ttf in Resources */,
+				05EDA11D24A49D1100262139 /* BootSplash.storyboard in Resources */,
 				05AE002A24A4208200400E17 /* Zocial.ttf in Resources */,
 				05AE000624A4208200400E17 /* Entypo.ttf in Resources */,
 				05AE003624A4208200400E17 /* MaterialIcons.ttf in Resources */,
@@ -446,8 +450,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EDA11C24A49D1100262139 /* BootSplash.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +462,7 @@
 				05AE001B24A4208200400E17 /* Ionicons.ttf in Resources */,
 				05AE002724A4208200400E17 /* FontAwesome.ttf in Resources */,
 				05AEFFFB24A4208200400E17 /* Fontisto.ttf in Resources */,
+				05EDA11E24A49D1100262139 /* BootSplash.storyboard in Resources */,
 				05AE000F24A4208200400E17 /* MaterialCommunityIcons.ttf in Resources */,
 				05AEFFFF24A4208200400E17 /* Octicons.ttf in Resources */,
 				05AE001724A4208200400E17 /* Foundation.ttf in Resources */,
@@ -485,6 +490,7 @@
 				05AE001C24A4208200400E17 /* Ionicons.ttf in Resources */,
 				05AE003024A4208200400E17 /* EvilIcons.ttf in Resources */,
 				05AE002424A4208200400E17 /* FontAwesome5_Regular.ttf in Resources */,
+				05EDA11F24A49D1100262139 /* BootSplash.storyboard in Resources */,
 				05AE002C24A4208200400E17 /* Zocial.ttf in Resources */,
 				05AE000824A4208200400E17 /* Entypo.ttf in Resources */,
 				05AE003824A4208200400E17 /* MaterialIcons.ttf in Resources */,
@@ -802,18 +808,6 @@
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = ReactCrossplatformApp;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
