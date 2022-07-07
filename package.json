@@ -48,7 +48,7 @@
     "html-webpack-plugin": "^4.3.0",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.58.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "native-base": "^2.13.12",
     "prettier": "^2.0.4",
     "react-dom": "^16.13.1",
